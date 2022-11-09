@@ -4,7 +4,7 @@ import { AddContext } from "../context"
 import ItemInCart from "../components/itemInCart";
 
 
-export default function Aside () {
+export default function Beside () {
   const [name, setName] = useState("")
 
 
@@ -19,7 +19,7 @@ export default function Aside () {
 
     return (
       <>
-        {!showForm ? <aside className='bg-[#FFF0DE] pt-6 md:w-[30%] min-h-screen w-full h-full md:flex flex-col relative overflow-y-hidden '>
+        {!showForm ? <aside className='bg-[#FFF0DE] pt-6 md:w-[30%] min-h-screen w-full h-full md:flex flex-col relative overflow-y-hidden hidden'>
 
           <div className='flex items-center justify-between px-2 space-x-8 md:space-x-0 lg:space-x-8 bg-[#80485B] rounded-xl h-[20%] mx-3'>
               <img src="/source.svg" alt="" className='mb-8 -ml-2 md:hidden xl:inline-block' />
@@ -136,7 +136,7 @@ export default function Aside () {
 
        : 
       
-      <form className="md:w-[30%] min-h-screen w-full px-4 py-6 space-y-4 flex flex-col justify-between">
+      <form className="md:w-[30%] min-h-screen w-full px-4 py-6 space-y-4 md:flex flex-col justify-between hidden">
       <h1 className="text-xl ">
           Add a new Item
       </h1>

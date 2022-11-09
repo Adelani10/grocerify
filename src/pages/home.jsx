@@ -9,10 +9,10 @@ export default function Home () {
 
 
     return (
-            <div className='space-y-5 h-full'>
+            <div className='space-y-5 h-full m-4 md:m-10'>
                 <section className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between ">
                     <h1 className='text-xl leading-6 tracking-tight'>
-                    <span className='text-[#F9A109] '>Grocerify</span> allows you to take your shopping list wherever you go
+                    <span className='text-[#F9A109] '>Grocerify</span> allows you to take your shopping list wherever you go!
                     </h1>
 
                     <input type="text" className='h-10 shadow shadow-zinc-300 px-2 rounded-md' placeholder='Search an item' />
