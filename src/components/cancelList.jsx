@@ -15,7 +15,7 @@ export default function CancelList () {
 
             return (
         
-                <section className="flex flex-col w-42 p-4 absolute bg-white rounded-lg text-sm items- justify-center space-y-8 top-1/2 left-1/2 z-50 translate-x-[-50%] translate-y-[-50%]">
+                <section className="flex flex-col md:w-42 w-[75%] p-4 absolute bg-white rounded-lg text-sm items- justify-center space-y-8 top-1/2 left-1/2 z-50 translate-x-[-50%] translate-y-[-50%]">
                     <div className="flex justify-between items-start ">
                         <h4 className="max-w-[70%]">Are you sure you want to cancel this list ?</h4>
                         <button onClick={removeCancelPopUp} className="text-[#828282]"><i className="fa-solid fa-close"></i></button>

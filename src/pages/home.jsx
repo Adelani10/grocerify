@@ -9,7 +9,7 @@ export default function Home () {
 
 
     return (
-            <div className='space-y-5 h-full m-4 md:m-10'>
+            <div className='space-y-5 h-auto pb-6 md:pb-0 m-4 md:m-10'>
                 <section className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between ">
                     <h1 className='text-xl leading-6 tracking-tight'>
                     <span className='text-[#F9A109] '>Grocerify</span> allows you to take your shopping list wherever you go!
